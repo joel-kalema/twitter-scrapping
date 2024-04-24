@@ -1,0 +1,43 @@
+{
+  "name": "twitomotor",
+  "version": "1.0.0",
+  "description": "automate bit of twiter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "twitomotor"
+  },
+  "keywords": [
+    "twitter",
+    "scraper",
+    "node",
+    "express",
+    "puppeteer",
+    "postgresql",
+    "nodemailer",
+    "swagger",
+    "twiter",
+    "automator",
+    "typscript",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "puppeteer": "^13.1.0",
+    "nodemailer": "^6.7.2",
+    "multer": "^1.4.3",
+    "swagger-jsdoc": "^7.0.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4"
+  }
+}
